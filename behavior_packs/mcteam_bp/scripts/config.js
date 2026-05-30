@@ -67,11 +67,11 @@ export const CONFIG = {
     ]
   },
   rewardLoot: [
-    { item: "minecraft:diamond", amount: 16, weight: 10 },
-    { item: "minecraft:emerald", amount: 24, weight: 8 },
-    { item: "minecraft:golden_apple", amount: 4, weight: 6 },
-    { item: "minecraft:netherite_scrap", amount: 2, weight: 4 },
-    { item: "minecraft:experience_bottle", amount: 32, weight: 6 },
+    { item: "minecraft:diamond", amount: 16, weight: 5 },
+    { item: "minecraft:emerald", amount: 24, weight: 4 },
+    { item: "minecraft:golden_apple", amount: 4, weight: 2 },
+    { item: "minecraft:netherite_scrap", amount: 2, weight: 2 },
+    { item: "minecraft:experience_bottle", amount: 32, weight: 4 },
     { item: "minecraft:totem_of_undying", amount: 1, weight: 2 },
     {
       item: "minecraft:diamond_sword",
