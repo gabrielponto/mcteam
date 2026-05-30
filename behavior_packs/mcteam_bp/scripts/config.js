@@ -71,24 +71,101 @@ export const CONFIG = {
     { item: "minecraft:emerald", amount: 24, weight: 4 },
     { item: "minecraft:golden_apple", amount: 4, weight: 2 },
     { item: "minecraft:netherite_scrap", amount: 2, weight: 2 },
-    { item: "minecraft:experience_bottle", amount: 32, weight: 4 },
+    { item: "minecraft:experience_bottle", amount: 16, weight: 4 },
     { item: "minecraft:totem_of_undying", amount: 1, weight: 2 },
     {
       item: "minecraft:diamond_sword",
       amount: 1,
-      weight: 4,
+      weight: 2,
+      enchantments: [
+        { id: "minecraft:sharpness", level: 5 },
+        { id: "minecraft:unbreaking", level: 3 }
+      ]
+    },
+    {
+      item: "minecraft:diamond_sword",
+      amount: 1,
+      weight: 3,
+      enchantments: [
+        { id: "minecraft:smite", level: 4 },
+        { id: "minecraft:unbreaking", level: 3 }
+      ]
+    },
+    {
+      item: "minecraft:diamond_sword",
+      amount: 1,
+      weight: 1,
+      enchantments: [
+        { id: "minecraft:smite", level: 4 },
+        { id: "minecraft:unbreaking", level: 3 },
+        { id: "minecraft:mending", level: 1 }
+      ]
+    },
+    {
+      item: "minecraft:diamond_sword",
+      amount: 1,
+      weight: 1,
+      enchantments: [
+        { id: "minecraft:smite", level: 5 },
+        { id: "minecraft:unbreaking", level: 3 },
+      ]
+    },
+    {
+      item: "minecraft:diamond_sword",
+      amount: 1,
+      weight: 1,
+      enchantments: [
+        { id: "minecraft:smite", level: 5 },
+        { id: "minecraft:unbreaking", level: 3 },
+        { id: "minecraft:mending", level: 1 }
+      ]
+    },
+    {
+      item: "minecraft:diamond_sword",
+      amount: 1,
+      weight: 1,
       enchantments: [
         { id: "minecraft:sharpness", level: 4 },
+        { id: "minecraft:unbreaking", level: 3 },
+        { id: "minecraft:mending", level: 1 }
+      ]
+    },
+    {
+      item: "minecraft:diamond_pickaxe",
+      amount: 1,
+      weight: 3,
+      enchantments: [
+        { id: "minecraft:efficiency", level: 4 },
         { id: "minecraft:unbreaking", level: 3 }
       ]
     },
     {
       item: "minecraft:diamond_pickaxe",
       amount: 1,
-      weight: 4,
+      weight: 2,
+      enchantments: [
+        { id: "minecraft:efficiency", level: 5 },
+        { id: "minecraft:unbreaking", level: 3 }
+      ]
+    },
+    {
+      item: "minecraft:diamond_pickaxe",
+      amount: 1,
+      weight: 1,
       enchantments: [
         { id: "minecraft:efficiency", level: 4 },
-        { id: "minecraft:unbreaking", level: 3 }
+        { id: "minecraft:unbreaking", level: 3 },
+        { id: "minecraft:mending", level: 1 }
+      ]
+    },
+    {
+      item: "minecraft:diamond_pickaxe",
+      amount: 1,
+      weight: 1,
+      enchantments: [
+        { id: "minecraft:efficiency", level: 5 },
+        { id: "minecraft:unbreaking", level: 3 },
+        { id: "minecraft:mending", level: 1 }
       ]
     },
     {
@@ -99,6 +176,45 @@ export const CONFIG = {
         { id: "minecraft:power", level: 4 },
         { id: "minecraft:unbreaking", level: 3 }
       ]
-    }
+    },
+    { 
+      item: "minecraft:bow",
+      amount: 1,
+      weight: 1,
+      enchantments: [
+        { id: "minecraft:power", level: 4 },
+        { id: "minecraft:unbreaking", level: 3 },
+        { id: "minecraft:infinity", level: 1 }
+      ]
+    },
+    {
+      item: "minecraft:bow",
+      amount: 1,
+      weight: 2,
+      enchantments: [
+        { id: "minecraft:power", level: 5 },
+        { id: "minecraft:unbreaking", level: 3 }
+      ]
+    },
+    {
+      item: "minecraft:bow",
+      amount: 1,
+      weight: 1,
+      enchantments: [
+        { id: "minecraft:power", level: 5 },
+        { id: "minecraft:unbreaking", level: 3 },
+        { id: "minecraft:infinity", level: 1 }
+      ]
+    },
+    {
+      item: "minecraft:bow",
+      amount: 1,
+      weight: 2,
+      enchantments: [
+        { id: "minecraft:power", level: 5 },
+        { id: "minecraft:unbreaking", level: 3 },
+        { id: "minecraft:mending", level: 1 }
+      ]
+    },
   ]
 };
