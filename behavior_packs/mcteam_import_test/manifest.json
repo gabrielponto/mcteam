@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "MCTeam - Teste de Importacao",
+    "description": "Behavior Pack minimo para validar se o Minecraft esta importando packs deste projeto.",
+    "uuid": "4011b44e-0db6-4ed3-bd81-01cd28f49220",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "86239bc5-1152-438b-817e-778f361b01bb",
+      "version": [1, 0, 0]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "MCTeam - Guerra Semanal",
+    "description": "Divide jogadores entre equipe azul e vermelha, pontua abates e libera premiacao semanal.",
+    "uuid": "9dc6f342-833c-46c8-8753-3d96915b12e1",
+    "version": [1, 1, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "8f09c656-ac73-4140-a836-2bea562608b8",
+      "version": [1, 1, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.11.0"
+    }
+  ]
+}
